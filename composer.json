@@ -1,6 +1,7 @@
 {
   "require":{
-    "phpoffice/phpexcel": "1.8.0"
+    "phpoffice/phpexcel": "1.8.0",
+    "monolog/monolog": "^1.21"
   },
   "repositories": {
     "packagist": {
