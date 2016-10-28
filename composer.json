@@ -1,7 +1,8 @@
 {
   "require":{
     "phpoffice/phpexcel": "1.8.0",
-    "monolog/monolog": "^1.21"
+    "monolog/monolog": "^1.21",
+    "apanly/browser-detector": "dev-master"
   },
   "repositories": {
     "packagist": {

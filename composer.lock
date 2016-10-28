@@ -4,9 +4,52 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c4294342c511d4a8851d6ad0a570c1d6",
-    "content-hash": "ea7ad0f3654b8a179fe38b6350c4c1d6",
+    "hash": "4abff01b3224947e1be0e8d7efcda855",
+    "content-hash": "c8f6009d99ea60a9c74b7655c8ad127f",
     "packages": [
+        {
+            "name": "apanly/browser-detector",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/apanly/browser-detector.git",
+                "reference": "658f580d7366af67b839481ce050f17e0056d76b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/apanly/browser-detector/658f580d7366af67b839481ce050f17e0056d76b.zip",
+                "reference": "658f580d7366af67b839481ce050f17e0056d76b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "apanly\\BrowserDetector\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "apanly",
+                    "email": "apanly@163.com"
+                }
+            ],
+            "description": "根据UA判断浏览器类型和版本，操作系统，设备型号 ",
+            "keywords": [
+                "browser",
+                "detection",
+                "language",
+                "operating system",
+                "os",
+                "操作系统",
+                "浏览器",
+                "设备型号"
+            ],
+            "time": "2016-10-27 13:27:41"
+        },
         {
             "name": "monolog/monolog",
             "version": "1.21.0",
@@ -193,7 +236,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "apanly/browser-detector": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
